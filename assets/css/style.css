@@ -1,0 +1,45 @@
+.foto  {
+    
+  text-align: left;
+  background-image: url('../img/fondo.jpg');
+  background-repeat: no-repeat;
+  padding-top: 3rem;
+  background-size: cover;
+  color: #ffffff;
+  text-shadow: 0.125em 0.25em 0.125em #707070;
+  padding: 12rem 3.125rem;
+  font-family: 'Source Code Pro', monospace;
+}
+body {
+  font-family: 'Source Code Pro', monospace;
+  font-weight: 400
+}
+.foto h1 {
+  font-size: 5rem;
+ }
+.nav-link {
+  color: #ffffff;
+  text-decoration: none; 
+  font-family: 'Source Code Pro', monospace;
+  font-weight: 400;}
+a:hover{
+  color: red;
+}
+.navbar-brand img {
+  width: 7rem;
+}
+.dark-purple {
+  background: #380954;
+  color: #ffffff;
+  padding: 1rem;
+  white-space: inherit;
+}
+.bg-purple {
+  background-color:#380954;
+}
+.bg-teal {
+  background-color: #45A3B8;
+}
+
+
+

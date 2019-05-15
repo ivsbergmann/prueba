@@ -2,6 +2,7 @@
     
   text-align: left;
   background-image: url('../img/fondo.jpg');
+  background-position: center;
   background-repeat: no-repeat;
   padding-top: 3rem;
   background-size: cover;
@@ -23,7 +24,7 @@ body {
   font-family: 'Source Code Pro', monospace;
   font-weight: 400;}
 a:hover{
-  color: red;
+  color: #45A3B8;
 }
 .navbar-brand img {
   width: 7rem;
@@ -43,3 +44,8 @@ a:hover{
 
 
 
+@media (max-width: 575.98px) { 
+   .foto h1 {
+     font-size: 2rem;
+   }
+ }

@@ -41,7 +41,6 @@
     </nav>
     <div class="container-fluid">
         <section class="foto mt-5 text-center">
-
             <p>YO SOY</p>
             <h1>Ivanna</h1>
             <button type="button" class="btn btn-outline-light btn-lg mt-2">Conoce mi trabajo</button>
@@ -49,11 +48,12 @@
         </section>
         <div class="container-fluid px-0">
             <section id="about" class="dark-purple">
-
-                <div class="d-flex my-5 mx-5">
-                    <img src="assets/img/perfil.jpg" alt="perfil" class="about-me">
-                    <div class="about-texto ml-5">
-                        <h2 class="font-weight-bold my-5 text-center">SOBRE MÍ</h2>
+                <div class="row my-2 mx-2">
+                    <div class="col-md-3 col-sm-12 mt-1">
+                        <img src="assets/img/perfil.jpg" alt="perfil" class="about-me">
+                    </div>
+                    <div class="col-md-8 col-sm-12 about-texto">
+                        <h2 class="font-weight-bold  text-center">SOBRE MÍ</h2>
                         <h5>Desarrolladora web, narradora y madre a tiempo completo.</h5>
                         <p>Mi interés por el desarrollo web surgió como una contestación. Sí, una contestación a mis
                             propias inseguridades. A que el mundo STEM es cosa de hombres, a que las madres renuncian a
@@ -62,8 +62,10 @@
                             de confort" y me dí una respuesta: debía armarme de valor, decisión y emprender un nuevo
                             desafío. Hoy yo misma he creado este sitio :)</p>
                         <p>Soy narradora oral de oficio, mamá de tres personitas, amante de los gatos, la animación
-                            japonesa y aficionada al dibujo.</p>
-                        <div>
+                            japonesa y aficionada al dibujo.
+                        </p>
+
+                    </div>
                 </div>
             </section>
         </div>
@@ -72,17 +74,17 @@
             <section id="experiencia">
                 <h2 class="font-weight-bold my-5">MI EXPERIENCIA</h2>
                 <div class="row d-flex justify-content-between">
-                    <div class="col-sm-12 col-md-4">
+                    <div id="supermama" class="col-sm-12 col-md-4">
                         <i class="far fa-heart fa-5x"></i>
                         <h3>Supermamá</h3>
                         <h5>Desde 2010</h5>
                     </div>
-                    <div class="col-sm-12 col-md-4">
+                    <div id="cuentacuentos" class="col-sm-12 col-md-4">
                         <i class="fas fa-book fa-5x"></i>
                         <h3>Cuentacuentos</h3>
                         <h5>Desde 2016</h5>
                     </div>
-                    <div class="col-sm-12 col-md-4">
+                    <div id="dev-front" class="col-sm-12 col-md-4">
                         <i class="fas fa-laptop-code fa-5x"></i>
                         <h3>Desarrolladora front-end</h3>
                         <h5>Desde 2019</h5>
@@ -155,17 +157,77 @@
                 </div>
             </section>
         </div>
+
+        <div class="container">
+            <section id="contacto">
+
+            </section>
+        </div>
+        <footer></footer>
     </div>
-    </section>
+
+    <div class="modal fade" id="supermama" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="modalsupermama">Modal title</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    ...
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="cuentacuentos" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="modalcuentacuentos">Modal title</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    ...
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="dev-front" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="modaldev-front">Modal tiltle</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    ...
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+            </div>
+        </div>
     </div>
 
 
-
-
-
-    <section class="contacto"></section>
-    <footer></footer>
-    </div>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
         crossorigin="anonymous"></script>
@@ -175,6 +237,7 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
         crossorigin="anonymous"></script>
+    <script src="assets/js/app.js"></script>
 </body>
 
 </html>

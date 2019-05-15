@@ -13,7 +13,8 @@
 }
 body {
   font-family: 'Source Code Pro', monospace;
-  font-weight: 400
+  font-weight: 400;
+  
 }
 .foto h1 {
   font-size: 5rem;
@@ -27,7 +28,7 @@ a:hover{
   color: #45A3B8;
 }
 .navbar-brand img {
-  width: 7rem;
+  width: 35%;
 }
 .dark-purple {
   background: #380954;
@@ -50,4 +51,15 @@ footer a {
    .foto h1 {
      font-size: 2rem;
    }
+   .foto{
+     margin-top: 7rem;
+   }
  }
+ @media (min-width: 575.98px) { 
+  .foto h1 {
+    font-size: 2rem;
+  }
+  .foto{
+    margin-top: 7rem;
+  }
+}

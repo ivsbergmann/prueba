@@ -43,14 +43,14 @@
         <section class="foto mt-5 text-center">
             <p>YO SOY</p>
             <h1>Ivanna</h1>
-            <button type="button" class="btn btn-outline-light btn-lg mt-2">Conoce mi trabajo</button>
+             <a href="#trabajos"><button type="button" class="btn btn-outline-light btn-lg mt-2">Conoce mi trabajo</button></a>
 
         </section>
-        <div class="container-fluid px-0">
+        <div class="container-fluid px-0 d-none d-sm-block d-sm-none d-md-block">
             <section id="about" class="dark-purple">
                 <div class="row my-2 mx-2">
                     <div class="col-md-3 col-sm-12 mt-1">
-                        <img src="assets/img/perfil.jpg" alt="perfil" class="about-me">
+                        <img src="assets/img/perfil.jpg" alt="perfil" class="about-me rounded-circle pt-3">
                     </div>
                     <div class="col-md-8 col-sm-12 about-texto">
                         <h2 class="font-weight-bold  text-center">SOBRE MÍ</h2>
@@ -158,70 +158,77 @@
             </section>
         </div>
 
-        <div class="container">
-            <section id="contacto">
 
-            </section>
-        </div>
-        <footer></footer>
+        <section id="contacto">
+            <h2 class="text-center font-weight-bold mt-5">Contacto</h2>
+            <div class="typeform-widget" data-url="https://ivannabergmann.typeform.com/to/YsoUnn"
+                style="width: 100%; height: 500px;"></div>
+            <script> (function () { var qs, js, q, s, d = document, gi = d.getElementById, ce = d.createElement, gt = d.getElementsByTagName, id = "typef_orm", b = "https://embed.typeform.com/"; if (!gi.call(d, id)) { js = ce.call(d, "script"); js.id = id; js.src = b + "embed.js"; q = gt.call(d, "script")[0]; q.parentNode.insertBefore(js, q) } })() </script>
+            <div style="font-family: Sans-Serif;font-size: 12px;color: #999;opacity: 0.5; padding-top: 5px;"> powered by
+                <a href="https://admin.typeform.com/signup?utm_campaign=YsoUnn&utm_source=typeform.com-13951173-Basic&utm_medium=typeform&utm_content=typeform-embedded-poweredbytypeform&utm_term=ES"
+                    style="color: #999" target="_blank">Typeform</a></div>
+        </section>
+
+        <footer class="dark-purple d-flex justify-content-center">
+                <a href="https://www.facebook.com/FreckledIvanna" target="_blank"><span class="fab fa-facebook fa-3x mx-4" tool-tip-toggle="tooltip-demo" data-original-title="Facebook"></span></a>
+                <a href="https://www.instagram.com/ivs.theshero/" target="_blank"><span class="fab fa-instagram fa-3x mx-4" tool-tip-toggle="tooltip-demo" data-original-title="Instagram"></span></a>
+                <a href="https://github.com/ivsbergmann" target="_blank"><span class="fab fa-github-square fa-3x mx-4" tool-tip-toggle="tooltip-demo" data-original-title="Github"></span></a>
+        </footer>
     </div>
 
-    <div class="modal fade" id="supermama" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+    <div class="modal fade" id="modalsupermama" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
         aria-hidden="true">
         <div class="modal-dialog" role="document">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h5 class="modal-title" id="modalsupermama">Modal title</h5>
+                    <h5 class="modal-title" id="modalsupermama">MADRE DE TRES :)</h5>
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
                     </button>
                 </div>
                 <div class="modal-body">
-                    ...
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente ipsa neque sint eum? Eveniet laudantium, soluta consequatur assumenda tempora optio quidem maiores, quis eligendi reprehenderit, architecto iusto commodi dignissimos atque.</p>
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                    <button type="button" class="btn btn-primary">Save changes</button>
                 </div>
             </div>
         </div>
     </div>
-    <div class="modal fade" id="cuentacuentos" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+    <div class="modal fade" id="modalcuentacuentos" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
         aria-hidden="true">
         <div class="modal-dialog" role="document">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h5 class="modal-title" id="modalcuentacuentos">Modal title</h5>
+                    <h5 class="modal-title" id="modalcuentacuentos">CONTADORA DE HISTORIAS</h5>
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
                     </button>
                 </div>
                 <div class="modal-body">
-                    ...
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas dolorum, sunt neque officia assumenda nihil minima dolorem ratione obcaecati, incidunt sequi earum ea esse accusamus commodi, voluptate beatae quos quaerat?</p>
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                    <button type="button" class="btn btn-primary">Save changes</button>
                 </div>
             </div>
         </div>
     </div>
-    <div class="modal fade" id="dev-front" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+    <div class="modal fade" id="modaldev-front" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
         aria-hidden="true">
         <div class="modal-dialog" role="document">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h5 class="modal-title" id="modaldev-front">Modal tiltle</h5>
+                    <h5 class="modal-title" id="modaldev-front">DESARROLLADORA...EN DESARROLLO.</h5>
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
                     </button>
                 </div>
                 <div class="modal-body">
-                    ...
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo iusto minus nihil totam ipsa quia accusamus id eaque tempora placeat adipisci dolores dolorum, molestiae ipsam error similique necessitatibus dolor omnis.</p>
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                    <button type="button" class="btn btn-primary">Save changes</button>
                 </div>
             </div>
         </div>

@@ -17,4 +17,11 @@ $("#dev-front").click(function(){
     $("#modaldev-front").modal('show');
     
 })
-})
+
+$('[tool-tip-toggle="tooltip-demo"]').tooltip({
+  placement : 'top'
+ 
+    });
+ 
+
+});

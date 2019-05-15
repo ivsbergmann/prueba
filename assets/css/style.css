@@ -41,7 +41,9 @@ a:hover{
 .bg-teal {
   background-color: #45A3B8;
 }
-
+footer a {
+  color: #ffffff;
+}
 
 
 @media (max-width: 575.98px) { 
